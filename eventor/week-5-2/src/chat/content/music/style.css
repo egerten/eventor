@@ -4,4 +4,16 @@
     margin: 0 5px;
     padding: 5px;
 }
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
 
+p {
+    background: #9f046f;
+    color: #9f046f;
+    margin: 0 5px;
+    padding: 5px;
+}
