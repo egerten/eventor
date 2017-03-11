@@ -11,4 +11,4 @@ require('./panes/menu-pane');
 require('./panes/content-pane');
 require('./content/movie');
 require('./content/links');
-require('./content/posts');
+require('./content/news');
