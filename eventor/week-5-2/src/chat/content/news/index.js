@@ -2,7 +2,7 @@ var controller = require('./controller');
 
 angular
     .module('chat-app')
-    .component('posts', {
-        templateUrl: 'chat/content/posts/template.html',
+    .component('news', {
+        templateUrl: 'chat/content/news/template.html',
         controller
     });

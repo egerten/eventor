@@ -4,7 +4,7 @@ class ContentService extends EventEmitter {
     constructor() {
         super();
         window.cs = this;
-        this.content = 'Posts';
+        this.content = 'news';
     }
 
     setActiveContent(newContent) {
