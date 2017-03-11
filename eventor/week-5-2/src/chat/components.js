@@ -9,6 +9,6 @@ require('./thread/thread-preview');
 require('./thread/threads-popover');
 require('./panes/menu-pane');
 require('./panes/content-pane');
-require('./content/bio');
 require('./content/music');
-require('./content/posts');
+require('./content/movie');
+require('./content/news');
