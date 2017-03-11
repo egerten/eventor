@@ -6,4 +6,5 @@ content-pane {
     width: calc(100% - 280px);
     left: 280px;
     overflow: scroll;
+    color: 
 }

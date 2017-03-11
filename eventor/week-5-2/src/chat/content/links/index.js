@@ -1,8 +1,7 @@
 var controller = require('./controller');
 
 angular
-    .module('chat-app')
-    .component('links', {
-        templateUrl: 'chat/content/links/template.html',
+    .component('music', {
+        templateUrl: 'chat/content/music/template.html',
         controller
     });
