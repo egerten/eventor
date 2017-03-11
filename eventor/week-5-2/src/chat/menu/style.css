@@ -1,8 +1,8 @@
 menu {
     position: relative;
     height: 60px;
-    background: #3a5795;
-    color: #3a5795;
+    background: #9f046f;
+    color: #9f046f;
     padding: 10px;
     line-height: 40px;
 }
@@ -14,14 +14,14 @@ menu h1 {
 
 menu button {
     background: none;
-    color: #fff;
+    color:#9f046f;
     float: right;
     height: 40px;
     line-height: 29px;
     cursor: pointer;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: #9f046f;
 }
 
 menu button:hover {

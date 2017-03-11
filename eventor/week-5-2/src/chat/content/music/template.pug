@@ -1,0 +1,10 @@
+h1 MUSIC
+p UPCOMING CONCERTS
+
+div(ng-repeat="music in $ctrl.musics")
+    h2 {{music.title}}
+    p {{music.body}}
+    div.tags
+        span(ng-repeat="tag in music.tags") {{tag}}
+
+img(ng-src="http://www.istanbulive.org/member_files/files/mor-ve-otesi.jpg")
