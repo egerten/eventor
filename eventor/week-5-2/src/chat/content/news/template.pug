@@ -1,17 +1,17 @@
 h1 News
 p Hello! You can follow the latest Music News here!!!
 
-div(ng-repeat="new in $ctrl.news")
-    h2 {{"Pregnant Ciara 'thankful' after escaping car crash unharmed"}}
-    p {{"Read more.."}}
-    div.tags
-        span(ng-repeat="tag in new.tags") {http://www.music-news.com/news/UK/104098/Pregnant-Ciara-thankful-after-escaping-car-crash-unharmed}
 
-div(ng-repeat="new in $ctrl.news")
-h2 {{"Billy Ray Cyrus sparks speculation Miley Cyrus is married"}}
-    p {{"Read more.."}}
+    h2 "Pregnant Ciara 'thankful' after escaping car crash unharmed"
+    p "Read more.."
     div.tags
-        span(ng-repeat="tag in new.tags") {http://www.music-news.com/news/UK/104079/Billy-Ray-Cyrus-sparks-speculation-Miley-Cyrus-is-married}
+        span(ng-repeat="http://www.music-news.com/news/UK/104098/Pregnant-Ciara-thankful-after-escaping-car-crash-unharmed") 
+
+
+h2 "Billy Ray Cyrus sparks speculation Miley Cyrus is married"
+    p "Read more.."
+    div.tags
+        span(ng-repeat="http://www.music-news.com/news/UK/104079/Billy-Ray-Cyrus-sparks-speculation-Miley-Cyrus-is-married") 
 
 
 
