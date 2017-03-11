@@ -13,5 +13,5 @@ class newsService extends EventEmitter {
     }
 
 }
-
 angular.module('chat-app').service('newsService', newsService);
+
