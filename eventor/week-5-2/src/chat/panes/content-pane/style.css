@@ -14,3 +14,9 @@ content-pane img {
     padding: 5px;
     width: 300px;
 }
+content-pane p {
+    background: #9f046f;
+    color: #9f046f;
+    margin: 0 5px;
+    padding: 5px;
+}

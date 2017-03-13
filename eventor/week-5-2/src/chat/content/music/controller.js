@@ -1,4 +1,5 @@
 module.exports = class MusicController {
-    constructor() {
+   constructor(musicService) {
+        this.musics = musicService.musics;
     }
 }

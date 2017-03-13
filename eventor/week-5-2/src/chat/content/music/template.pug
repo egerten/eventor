@@ -1,16 +1,10 @@
-h1 MUSIC
-p UPCOMING CONCERTS
+h1 Music
+p Upcoming Concerts
 
 div(ng-repeat="music in $ctrl.musics")
     h2 {{music.title}}
-    p {{music.body}}
-    div.tags
-        span(ng-repeat="tag in music.tags") {{tag}}
+    h3 {{music.body}}
+    div.musicImage
+        img(ng-src="{{music.src}}")
+    p
 
-
-img(ng-src="http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg")
-p1 Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti. 
-
-
-div
- p Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.

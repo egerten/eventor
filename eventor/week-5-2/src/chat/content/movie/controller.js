@@ -1,4 +1,5 @@
 module.exports = class MovieController {
-    constructor() {
+   constructor(movieService) {
+        this.movies = movieService.movies;
     }
 }

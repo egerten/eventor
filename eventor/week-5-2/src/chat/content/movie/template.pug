@@ -1,3 +1,7 @@
-h1 Movie
-p Hello!
-img(ng-src="https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_(film).png")
+h1 Movies
+div(ng-repeat="movie in $ctrl.movies")
+    h2 {{movie.title}}
+    div.movieImage
+        img(ng-src="{{movie.src}}")
+    h3 {{movie.body}}
+    p
