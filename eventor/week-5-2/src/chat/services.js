@@ -6,3 +6,4 @@ require('./movie-service');
 require('./music-service');
 require('./news-service');
 require('./movie-repository');
+require('./music-repository');
