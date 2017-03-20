@@ -7,3 +7,4 @@ require('./music-service');
 require('./news-service');
 require('./movie-repository');
 require('./music-repository');
+require('./news-repository');

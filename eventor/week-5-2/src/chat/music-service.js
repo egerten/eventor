@@ -5,8 +5,6 @@ class musicService extends EventEmitter {
         super();
         window.ps = this;
         this.MusicRepository = MusicRepository;
-
-
     }
     getMusics() {
         this.MusicRepository.getMusics().then(response => {
