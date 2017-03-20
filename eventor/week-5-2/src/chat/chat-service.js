@@ -26,7 +26,7 @@ class ChatService extends EventEmitter {
 
         this._threads = [];
 
-        var onInitialData = response => {
+        /*var onInitialData = response => {
             this._threads = response.data;
 
             this._threads = this._threads.map(thread => new Thread(thread));
@@ -128,8 +128,8 @@ class ChatService extends EventEmitter {
 
     getThreadById(id) {
         return this._threads.find(thread => thread.id === id);
-    };
-
+    };*/
+    }
 }
 
 angular.module('chat-app').service('ChatService', ChatService);

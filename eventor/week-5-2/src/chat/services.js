@@ -5,3 +5,4 @@ require('./posts-service');
 require('./movie-service');
 require('./music-service');
 require('./news-service');
+require('./movie-repository');
