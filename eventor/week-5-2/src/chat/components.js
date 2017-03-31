@@ -12,3 +12,4 @@ require('./panes/content-pane');
 require('./content/music');
 require('./content/movie');
 require('./content/news');
+require('./content/eventsmap');

@@ -6,7 +6,6 @@ content-pane {
     width: calc(100% - 280px);
     left: 280px;
     overflow: scroll;
-    color: 
 }
 content-pane img {
     border: 1px solid #ddd;
@@ -15,7 +14,6 @@ content-pane img {
     width: 300px;
 }
 content-pane p {
-    background: #9f046f;
     color: #9f046f;
     margin: 0 5px;
     padding: 5px;

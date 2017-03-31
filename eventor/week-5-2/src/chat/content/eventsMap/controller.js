@@ -1,5 +1,8 @@
-module.exports = class MovieController {
-    constructor(movieService) {
-        this.movies = movieService.movies;
+module.exports = class EventsMapController {
+    constructor() {
+        
+        this.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
+
     }
+    
 }
