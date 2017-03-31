@@ -16,6 +16,7 @@
   "dependencies": {
     "angular": "^1.6.3",
     "angular-mocks": "^1.6.3",
-    "angular-outer-click": "^0.1.0"
+    "angular-outer-click": "^0.1.0",
+    "angular-google-maps": "^2.4.1"
   }
 }
