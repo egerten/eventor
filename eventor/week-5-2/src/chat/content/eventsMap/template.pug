@@ -1,4 +1,4 @@
 h1 Maps
-p Hello! These are the links that I like to visit!
-<ui-gmap-google-map center='$ctrl.map.center' zoom='$ctrl.map.zoom'></ui-gmap-google-map>
-
+<ui-gmap-google-map center='$ctrl.map.center' zoom='$ctrl.map.zoom'>
+    <ui-gmap-markers models='$ctrl.marker' coords="'self'" icon="'icon'" idkey='$ctrl.marker.id'></ui-gmap-markers>
+</ui-gmap-google-map>

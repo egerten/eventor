@@ -3,8 +3,8 @@ content-pane {
     position: absolute;
     height: 100%;
     top: 0;
-    width: calc(100% - 280px);
-    left: 280px;
+    width: calc(100% - 200px);
+    left: 200px;
     overflow: scroll;
 }
 content-pane img {
