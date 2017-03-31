@@ -12,7 +12,7 @@ class movieService extends EventEmitter {
         this.MovieRepository.getMovies().then(response => {
             this.movies = response.data;
             this.trigger('new movie');
-        });
+    });
     }
 }
 angular.module('chat-app').service('movieService', movieService);
