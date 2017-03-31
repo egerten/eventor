@@ -5,6 +5,8 @@ require('./posts-service');
 require('./movie-service');
 require('./music-service');
 require('./news-service');
+require('./map-service');
 require('./movie-repository');
 require('./music-repository');
 require('./news-repository');
+

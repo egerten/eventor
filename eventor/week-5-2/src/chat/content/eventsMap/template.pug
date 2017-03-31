@@ -1,3 +1,9 @@
-h1 Links
-p Hello! These are the links that I like to visit!
-img(ng-src="https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_(film).png")
+h1 Map
+p Map
+
+div(ng-repeat="n in $ctrl.news")
+    h2 {{n.title}}
+    div.newsImage
+        img(ng-src="{{n.src}}")
+    a(ng-href="{{n.src2}}") {{n.body}}
+    p
