@@ -17,9 +17,5 @@ module.exports = class EventsMapController {
             this.movies = movieService.movies;
             console.log(this.movies);
         });
-
-
-
-
     }
 }
