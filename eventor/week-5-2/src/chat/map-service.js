@@ -1,19 +1,9 @@
 var EventEmitter = require('../lib/event-emitter');
+var Thread = require('./thread/thread');
 
-class movieService extends EventEmitter {
-    constructor(MapRepository) {
+class MapService extends EventEmitter {
+    constructor(movieService) {
         super();
-        window.ps = this;
-        this.map = [];
-        this.MapRepository = MapRepository;
-
-    }
-    getMap() {
-        this.MapRepository.getMap().then(response => {
-            this.map = response.data;
-            this.trigger('new map');
-        });
-    }
+    };
 }
-angular.module('chat-app').service('mapService', mapService);
-
+angular.module('chat-app').service('MapService', MapService);

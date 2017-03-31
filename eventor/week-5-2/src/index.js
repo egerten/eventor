@@ -2,7 +2,7 @@ var mockBackend = require('./lib/mock-backend');
 require('./lib/ui');
 
 angular
-    .module('chat-app', ['ui'])
+    .module('chat-app', ['ui', 'uiGmapgoogle-maps'])
     .run(
     //$httpBackend => {
     //$httpBackend.whenGET(/\.html$/).passThrough();

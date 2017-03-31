@@ -1,9 +1,5 @@
-h1 Map!
-p Map!
 
-div(ng-repeat="n in $ctrl.news")
-    h2 {{n.title}}
-    div.newsImage
-        img(ng-src="{{n.src}}")
-    a(ng-href="{{n.src2}}") {{n.body}}
-    p
+h1 Maps
+<ui-gmap-google-map center='$ctrl.map.center' zoom='$ctrl.map.zoom'>
+    <ui-gmap-markers models='$ctrl.marker' coords="'self'" icon="'icon'" idkey='$ctrl.marker.id'></ui-gmap-markers>
+</ui-gmap-google-map>
