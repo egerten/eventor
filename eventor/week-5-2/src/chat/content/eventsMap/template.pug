@@ -1,8 +1,11 @@
 
 h1 Maps
-<ui-gmap-google-map center='$ctrl.map.center' zoom='$ctrl.map.zoom'>
-    <ui-gmap-window options="$ctrl.windowOpt" show="$ctrl.windowOpt.show" closeClick="$ctrl.closeWindow"> 
-        div merhaba
+<ui-gmap-google-map center='$ctrl.map.center' zoom="16">
+    <ui-gmap-window ng-repeat="map in $ctrl.maps" options="map[2].windowOpt" show="map[2].windowOpt.show" closeClick="$ctrl.closeWindow"> 
+        div {{map[3]}} - {{map[0]}}
     </ui-gmap-window>
-    <ui-gmap-markers models='$ctrl.marker' coords="'self'" icon="'icon'" idkey='$ctrl.marker.id'></ui-gmap-markers>
+    <ui-gmap-markers ng-repeat="map in $ctrl.maps" models='map[2].marker' coords="'self'" icon="'icon'" idkey='map[2].marker.id'></ui-gmap-markers>
 </ui-gmap-google-map>
+
+
+

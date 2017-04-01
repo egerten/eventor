@@ -5,44 +5,44 @@
         "body": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip..",
         "src": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_(film).png",
         "map": {
-            "center": {"latitude": 45, "longitude":-73},
+            "center": {"latitude": 40.89365, "longitude":29.374577},
             "zoom": 8,
             "marker": {"id": 583187, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 45, "longitude": -73, "title":"La La Land"},
+            "latitude": 40.893653, "longitude": 29.374577, "title":"La La Land"},
             "windowOpt": {
-                "position": {"lat": 45.05, "lng": -72.95},
+                "position": {"lat": 40.893653, "lng": 29.374577},
                 "show": true
             }
         }
     },
     {
         "id": 2,
-        "title": "La La Land",
+        "title": "Emma Stone",
         "body": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip..",
         "src": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_(film).png",
         "map": {
-            "center": {"latitude": 50, "longitude":-78},
+            "center": {"latitude": 40.889658, "longitude":29.379397},
             "zoom": 8,
             "marker": {"id": 583188, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 50, "longitude": -78, "title":"La La Land"},
+            "latitude": 40.889658, "longitude": 29.379397, "title":"La La Land"},
             "windowOpt": {
-                "position": {"lat": 50.05, "lng": -77.95},
+                "position": {"lat": 40.889658, "lng": 29.379397},
                 "show": true
             }
         }
     },
     {
         "id": 2,
-        "title": "La La Land",
+        "title": "La Sebastian Bonita",
         "body": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip..",
         "src": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_(film).png",
         "map": {
-            "center": {"latitude": 55, "longitude":-82},
+            "center": {"latitude": 40.891568, "longitude":29.376981},
             "zoom": 8,
             "marker": {"id": 583188, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 55, "longitude": -82, "title":"La La Land"},
+            "latitude": 40.891568, "longitude": 29.376981, "title":"La La Land"},
             "windowOpt": {
-                "position": {"lat": 55.05, "lng": -71.95},
+                "position": {"lat": 40.891568, "lng": 29.376981},
                 "show": true
             }
         }
