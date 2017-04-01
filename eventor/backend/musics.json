@@ -5,12 +5,23 @@
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
         "map": {
-            "center": {"latitude": 40.891961, "longitude":29.381650},
+            "center": {
+                "latitude": 40.891961,
+                "longitude": 29.381650
+            },
             "zoom": 8,
-            "marker": {"id": 583189, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 40.891961, "longitude": 29.381650, "title":"Mor ve ötesi"},
+            "marker": {
+                "id": 583189,
+                "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+                "latitude": 40.891961,
+                "longitude": 29.381650,
+                "title": "Mor ve ötesi"
+            },
             "windowOpt": {
-                "position": {"lat": 40.891961, "lng": 29.381650},
+                "position": {
+                    "lat": 40.891961,
+                    "lng": 29.381650
+                },
                 "show": true
             }
         }
@@ -21,12 +32,23 @@
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
         "map": {
-            "center": {"latitude": 40.893607, "longitude":29.378785},
+            "center": {
+                "latitude": 40.893607,
+                "longitude": 29.378785
+            },
             "zoom": 8,
-            "marker": {"id": 583187, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 40.893607, "longitude": 29.378785, "title":"Yeşil ve ötesi"},
+            "marker": {
+                "id": 583187,
+                "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+                "latitude": 40.893607,
+                "longitude": 29.378785,
+                "title": "Yeşil ve ötesi"
+            },
             "windowOpt": {
-                "position": {"lat": 40.893607, "lng": 29.378785},
+                "position": {
+                    "lat": 40.893607,
+                    "lng": 29.378785
+                },
                 "show": true
             }
         }
@@ -37,12 +59,23 @@
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
         "map": {
-            "center": {"latitude": 40.891401, "longitude":29.383313},
+            "center": {
+                "latitude": 40.891401,
+                "longitude": 29.383313
+            },
             "zoom": 8,
-            "marker": {"id": 583187, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-            "latitude": 40.891401, "longitude": 29.383313, "title":"Siyah ve ötesi"},
+            "marker": {
+                "id": 583187,
+                "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+                "latitude": 40.891401,
+                "longitude": 29.383313,
+                "title": "Siyah ve ötesi"
+            },
             "windowOpt": {
-                "position": {"lat": 40.891401, "lng": 29.383313},
+                "position": {
+                    "lat": 40.891401,
+                    "lng": 29.383313
+                },
                 "show": true
             }
         }
