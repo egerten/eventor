@@ -2,7 +2,7 @@
 h1 Maps
 <ui-gmap-google-map center='$ctrl.map.center' zoom="16">
     <ui-gmap-window ng-repeat="map in $ctrl.maps" options="map[2].windowOpt" show="map[2].windowOpt.show" closeClick="$ctrl.closeWindow"> 
-        div {{map[3]}} - {{map[0]}}
+        div {{map[0]}}
     </ui-gmap-window>
     <ui-gmap-markers ng-repeat="map in $ctrl.maps" models='map[2].marker' coords="'self'" icon="'icon'" idkey='map[2].marker.id'></ui-gmap-markers>
 </ui-gmap-google-map>
