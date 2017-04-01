@@ -4,26 +4,47 @@
         "title": "Mor ve ötesi",
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
-		"latitude": 45,
-		"longitude": -73,
-		"zoom": 8
+        "map": {
+            "center": {"latitude": 46, "longitude":-71},
+            "zoom": 8,
+            "marker": {"id": 583189, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+            "latitude": 46, "longitude": -71, "title":"Mor ve ötesi"},
+            "windowOpt": {
+                "position": {"lat": 46.05, "lng": -70.95},
+                "show": true
+            }
+        }
     },
     {
         "id": 2,
-        "title": "Mor ve ötesi",
+        "title": "Yeşil ve ötesi",
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
-		"latitude": 45,
-		"longitude": -73,
-		"zoom": 8
+        "map": {
+            "center": {"latitude": 43, "longitude":-70},
+            "zoom": 8,
+            "marker": {"id": 583187, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+            "latitude": 43, "longitude": -70, "title":"Yeşil ve ötesi"},
+            "windowOpt": {
+                "position": {"lat": 43.05, "lng": -69.95},
+                "show": true
+            }
+        }
     },
     {
         "id": 3,
-        "title": "Mor ve ötesi",
+        "title": "Siyah ve ötesi",
         "body": "Başarılı rock müzik grubu mor ve ötesi, 15 Mart'ta Dorock Stage sahnesinde hayranlarıyla buluşuyor.Toplamda 8 albüm, 1 EP, 2 de single yayımladığı kariyeri boyunca ülke rock piyasasını tanımlayan isimlerden biri haline gelen ve eriştiği bu konumu 20 yıl boyunca koruyan mor ve ötesi, birçok değerli ismin albümüne de katkıda bulundu.  2008 yılında ise Eurovision Şarkı Yarışması’nda Türkiye'yi Deli adlı parçayla temsil etti.",
         "src": "http://www.zorlupsm.com/uploads/event/profile/700x900/700x900-236.jpg",
-		"latitude": 45,
-		"longitude": -73,
-		"zoom": 8
+        "map": {
+            "center": {"latitude": 44, "longitude":-74},
+            "zoom": 8,
+            "marker": {"id": 583187, "icon": "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+            "latitude": 44, "longitude": -74, "title":"Siyah ve ötesi"},
+            "windowOpt": {
+                "position": {"lat": 44.05, "lng": -73.95},
+                "show": true
+            }
+        }
     }
 ]

@@ -10,3 +10,4 @@ require('./movie-repository');
 require('./music-repository');
 require('./news-repository');
 require('./map-service');
+require('./map-repository');

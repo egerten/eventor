@@ -1,5 +1,5 @@
 module.exports = class EventsMapController {
-    constructor(movieService) {
+    constructor(MapService) {
         this.map = { center: { latitude: 45, longitude: -73 }, zoom: 8 };
         this.marker = [
             {
@@ -10,12 +10,28 @@ module.exports = class EventsMapController {
                 title: "title"
             }
         ];
-        this.movies = movieService.movies;
-        movieService.getMovies();
 
-        movieService.bind('new movie', () => {
-            this.movies = movieService.movies;
-            console.log(this.movies);
+        this.maps = MapService.maps;
+        MapService.getMaps();
+        MapService.bind('new maps', () => {
+            this.maps = MapService.maps;
+            console.log(this.maps);
         });
+       this.windowOpt = {
+            position: {
+                lat: 45.05,
+                lng: -73.05
+            },
+            show: true
+        };
+
     }
+    showWindow() {
+        this.windowOpt.show = true;
+    }
+    closeWindow() {
+        this.windowOpt.show = false;
+    }
+
+
 }
