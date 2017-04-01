@@ -18,3 +18,7 @@ content-pane p {
     margin: 0 5px;
     padding: 5px;
 }
+content-pane img{
+    width: 1000px;
+    height: 563px;
+}
