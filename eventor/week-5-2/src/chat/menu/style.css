@@ -5,6 +5,7 @@ menu {
     color: #9f046f;
     padding: 10px;
     line-height: 40px;
+    
 }
 
 menu h1 {
@@ -29,4 +30,8 @@ menu button:hover {
 }
 menu button:active {
     background-color: rgba(255, 255, 255, 0.3);
+}
+menu img{
+    width: 1000px;
+    height: 563px;
 }
