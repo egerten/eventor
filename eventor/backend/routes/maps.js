@@ -7,18 +7,17 @@ var musics = fs.readFileSync('./musics.json', 'utf-8');
 var news = fs.readFileSync('./news.json', 'utf-8');
 var events = [];
 movies = JSON.parse(movies);
+musics = JSON.parse(musics);
 /* GET users listing. */
 router.get('/', function (req, res, next) {
     var newMovie = req.query;
     if (!newMovie.title) {
+        events = [];
         for (var i = 0; i < movies.length; i++) {
             events.push([movies[i].title, movies[i].src, movies[i].map]);
         }
         for (var i = 0; i < musics.length; i++) {
             events.push([musics[i].title, musics[i].src, musics[i].map]);
-        }
-        for (var i = 0; i < news.length; i++) {
-            events.push([news[i].title, news[i].src, news[i].map]);
         }
         return res.send(events);
     }
