@@ -7,6 +7,7 @@ content-pane {
     left: 200px;
     overflow: scroll;
 }
+
 content-pane img {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -17,8 +18,4 @@ content-pane p {
     color: #9f046f;
     margin: 0 5px;
     padding: 5px;
-}
-content-pane img{
-    width: 1000px;
-    height: 563px;
 }
