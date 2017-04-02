@@ -1,5 +1,10 @@
 
 h1 Maps
+div.eventInfo
+    h1 Events:
+    div.info(ng-repeat="map in $ctrl.maps")
+        img(ng-src="{{map[1]}}")
+        p {{map[0]}}
 <ui-gmap-google-map center='$ctrl.map.center' zoom="16">
     <ui-gmap-window ng-repeat="map in $ctrl.maps" options="map[2].windowOpt" show="map[2].windowOpt.show" closeClick="$ctrl.closeWindow"> 
         div {{map[0]}}
